@@ -1,0 +1,20 @@
+import logoITK from './assets/itk.png';
+import logoIF from './assets/if.png';
+
+export default function App() {
+
+    return (
+        <div className="flex h-full min-h-screen w-full bg-[#1261A7] text-white">
+            <div className="flex flex-col h-full w-full bg-white text-black m-2 md:m-8 p-8 rounded-lg justify-center">
+                <div className="flex flex-row justify-around">
+                    <div className="flex flex-row gap-2 md:gap-8">
+                        <img className='w-20 md:w-28' src={logoITK} alt="" />
+                        <img className='w-20 md:w-28' src={logoIF} alt="" />
+                    </div>
+                    <p className='flex text-l md:text-5xl font-bold items-center'>Prediksi Kualitas Tidur Menggunakan Regresi Linear</p>
+                </div>
+                <p>lapet</p>
+            </div>
+        </div>
+    )
+}
